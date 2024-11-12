@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <!-- input first name -->
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+
+          <div class="col-75">
+            <input type="text" name="fname" placeholder="First name" />
+          </div>
+        </div>
+
+        <!-- input last name -->
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+
+          <div class="col-75">
+            <input type="text" name="lname" placeholder="Last name" />
+          </div>
+        </div>
+        <!-- input country   -->
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+
+          <div class="col-75">
+            <select name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <!-- input subject -->
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+
+          <div class="col-75">
+            <textarea
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="row">
+          <button class="Submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
